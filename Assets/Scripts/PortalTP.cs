@@ -7,6 +7,8 @@ public class PortalTP : MonoBehaviour
     public PortalTP targetPortal;       // Lien vers le script de l'autre portail
     public Transform targetPosition;    // Point précis où le joueur arrive
 
+    public CharacterController isControleur;
+
     [Header("Paramètres")]
     public float teleportDelay = 0.5f;
 
@@ -27,14 +29,18 @@ public class PortalTP : MonoBehaviour
         // Si un point de sortie existe → on s’en sert
         if (targetPosition != null)
         {
+            isControleur.enabled = false; 
             player.transform.position = targetPosition.position;
-            player.transform.rotation = targetPosition.rotation;
+            player.transform.rotation = targetPosition.rotation; 
+            isControleur.enabled = true; 
+
+
         }
-        else if (targetPortal != null && targetPortal.targetPosition != null)
-        {
-            player.transform.position = targetPortal.targetPosition.position;
-            player.transform.rotation = targetPortal.targetPosition.rotation;
-        }
+        /*  else if (targetPortal != null && targetPortal.targetPosition != null)
+          {
+              player.transform.position = targetPortal.targetPosition.position;
+              player.transform.rotation = targetPortal.targetPosition.rotation;
+          }*/
 
         // On active aussi le flag du portail cible pour éviter la boucle infinie
         if (targetPortal != null)
