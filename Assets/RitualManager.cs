@@ -18,6 +18,5 @@ public class RitualManager : MonoBehaviour
     void TriggerRitual()
     {
         // Ici tu choisis ce qui se passe quand les 4 vases sont remplis
-        // Exemple : ouvrir une porte, faire apparaître un boss, lancer un effet de lumière
     }
 }

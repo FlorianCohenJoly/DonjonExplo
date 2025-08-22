@@ -3031,7 +3031,11 @@ MonoBehaviour:
   isFilled: 0
   ritualManager: {fileID: 1143057583}
   spawnPoint: {fileID: 2032264280}
-  possibleObjects: []
+  possibleObjects:
+  - {fileID: 4887015558691502001}
+  - {fileID: 2737590483329570819}
+  - {fileID: 6988224981226297599}
+  - {fileID: 6136640318206856478}
 --- !u!65 &1219981567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3051,8 +3055,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.513498, y: 0.3564644, z: 0.46310812}
-  m_Center: {x: -0.0991336, y: -0.039352417, z: -0.18659593}
+  m_Size: {x: 1.2015206, y: 1.0463905, z: 1.1443306}
+  m_Center: {x: -0.13779427, y: -0.3843155, z: -0.17875288}
 --- !u!1 &1223414058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2891751208407709035, guid: fb4e94c778564f149b6743cc5d82ed40,
@@ -3137,7 +3141,11 @@ MonoBehaviour:
   isFilled: 0
   ritualManager: {fileID: 1143057583}
   spawnPoint: {fileID: 1628202358}
-  possibleObjects: []
+  possibleObjects:
+  - {fileID: 4887015558691502001}
+  - {fileID: 2737590483329570819}
+  - {fileID: 6988224981226297599}
+  - {fileID: 6136640318206856478}
 --- !u!65 &1267621230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3157,8 +3165,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.513498, y: 0.3564644, z: 0.46310812}
-  m_Center: {x: -0.0991336, y: -0.039352417, z: -0.18659593}
+  m_Size: {x: 1.1534076, y: 1.0253353, z: 1.2323736}
+  m_Center: {x: -0.13010876, y: -0.37378788, z: -0.18030341}
 --- !u!1001 &1270333753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3747,7 +3755,11 @@ MonoBehaviour:
   isFilled: 0
   ritualManager: {fileID: 1143057583}
   spawnPoint: {fileID: 249191842}
-  possibleObjects: []
+  possibleObjects:
+  - {fileID: 4887015558691502001}
+  - {fileID: 2737590483329570819}
+  - {fileID: 6988224981226297599}
+  - {fileID: 6136640318206856478}
 --- !u!65 &1604542573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3767,8 +3779,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.513498, y: 0.3564644, z: 0.46310812}
-  m_Center: {x: -0.0991336, y: -0.039352417, z: -0.18659593}
+  m_Size: {x: 1.2237221, y: 1.1437035, z: 1.2343563}
+  m_Center: {x: -0.113262765, y: -0.43297195, z: -0.20711096}
 --- !u!1001 &1609015418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4057,7 +4069,11 @@ MonoBehaviour:
   isFilled: 0
   ritualManager: {fileID: 1143057583}
   spawnPoint: {fileID: 1714390728}
-  possibleObjects: []
+  possibleObjects:
+  - {fileID: 4887015558691502001}
+  - {fileID: 2737590483329570819}
+  - {fileID: 6988224981226297599}
+  - {fileID: 6136640318206856478}
 --- !u!65 &1663791754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4077,8 +4093,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.513498, y: 0.3564644, z: 0.46310812}
-  m_Center: {x: -0.0991336, y: -0.039352417, z: -0.18659593}
+  m_Size: {x: 1.0310311, y: 0.9958, z: 1.0363971}
+  m_Center: {x: -0.09982173, y: -0.35902023, z: -0.20461915}
 --- !u!1001 &1666236494
 PrefabInstance:
   m_ObjectHideFlags: 0
