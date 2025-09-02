@@ -2,16 +2,20 @@ using UnityEngine;
 
 public class CollectibleItem : MonoBehaviour
 {
-    public GameObject item; 
+    [Header("Prefab qui sera stocké dans l'inventaire")]
+    public GameObject itemPrefab; // Drag ton prefab ici dans l’inspecteur
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             PlayerInventory inventory = other.GetComponent<PlayerInventory>();
-            if (inventory != null)
+            if (inventory != null && itemPrefab != null)
             {
-                inventory.AddItem(item.name);
+                // On ajoute le PREFAB dans l'inventaire
+                inventory.AddItem(itemPrefab);
+
+                // On détruit seulement l'objet ramassable de la scène
                 Destroy(gameObject);
             }
         }

@@ -782,7 +782,7 @@ Transform:
   m_GameObject: {fileID: 249191841}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.184, y: 0, z: -0.184}
+  m_LocalPosition: {x: -0.1, y: -0.069, z: -0.192}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1579,6 +1579,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Terrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6864669933389053948, guid: 87b8530a5e5c4e744abc07b6e22aa2dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7187974100037294407, guid: 87b8530a5e5c4e744abc07b6e22aa2dc,
         type: 3}
@@ -3031,11 +3036,6 @@ MonoBehaviour:
   isFilled: 0
   ritualManager: {fileID: 1143057583}
   spawnPoint: {fileID: 2032264280}
-  possibleObjects:
-  - {fileID: 4887015558691502001}
-  - {fileID: 2737590483329570819}
-  - {fileID: 6988224981226297599}
-  - {fileID: 6136640318206856478}
 --- !u!65 &1219981567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3141,11 +3141,6 @@ MonoBehaviour:
   isFilled: 0
   ritualManager: {fileID: 1143057583}
   spawnPoint: {fileID: 1628202358}
-  possibleObjects:
-  - {fileID: 4887015558691502001}
-  - {fileID: 2737590483329570819}
-  - {fileID: 6988224981226297599}
-  - {fileID: 6136640318206856478}
 --- !u!65 &1267621230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3755,11 +3750,6 @@ MonoBehaviour:
   isFilled: 0
   ritualManager: {fileID: 1143057583}
   spawnPoint: {fileID: 249191842}
-  possibleObjects:
-  - {fileID: 4887015558691502001}
-  - {fileID: 2737590483329570819}
-  - {fileID: 6988224981226297599}
-  - {fileID: 6136640318206856478}
 --- !u!65 &1604542573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3864,7 +3854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1628202358}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: spawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3879,7 +3869,7 @@ Transform:
   m_GameObject: {fileID: 1628202357}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.109, y: 0, z: 0.109}
+  m_LocalPosition: {x: -0.115, y: -0.117, z: -0.167}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4069,11 +4059,6 @@ MonoBehaviour:
   isFilled: 0
   ritualManager: {fileID: 1143057583}
   spawnPoint: {fileID: 1714390728}
-  possibleObjects:
-  - {fileID: 4887015558691502001}
-  - {fileID: 2737590483329570819}
-  - {fileID: 6988224981226297599}
-  - {fileID: 6136640318206856478}
 --- !u!65 &1663791754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4107,6 +4092,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cave
+      objectReference: {fileID: 0}
+    - target: {fileID: 770329027774673351, guid: fb4e94c778564f149b6743cc5d82ed40,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 783049075654461961, guid: fb4e94c778564f149b6743cc5d82ed40,
         type: 3}
@@ -4672,7 +4662,7 @@ Transform:
   m_GameObject: {fileID: 1714390727}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.155, y: -0.108, z: -0.155}
+  m_LocalPosition: {x: -0.114, y: -0.108, z: -0.196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4977,7 +4967,7 @@ Transform:
   m_GameObject: {fileID: 2032264279}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 0, z: -0.12}
+  m_LocalPosition: {x: -0.145, y: -0.112, z: -0.237}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5559,7 +5549,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e71e9af787132840ad0d7cf8efb577e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 2737590483329570819}
+  itemPrefab: {fileID: 5312448775294507779, guid: c125036290ecd2e45bcb69c481e0c10f,
+    type: 3}
 --- !u!1 &4887015558691502001 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2861624849095838451, guid: 73f7480513c463d4b8c9c53a3b9606ea,
@@ -5639,6 +5630,12 @@ PrefabInstance:
       propertyPath: itemName
       value: ItemVase1
       objectReference: {fileID: 0}
+    - target: {fileID: 6594511632456679444, guid: 73f7480513c463d4b8c9c53a3b9606ea,
+        type: 3}
+      propertyPath: itemPrefab
+      value: 
+      objectReference: {fileID: 2861624849095838451, guid: 73f7480513c463d4b8c9c53a3b9606ea,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5707,6 +5704,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8856934093061097567, guid: 7065bf5bf57c16948adc57dca0b5b8e8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5740,7 +5742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e71e9af787132840ad0d7cf8efb577e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 6136640318206856478}
+  itemPrefab: {fileID: 1951078491414426416, guid: 9cec9c4256a87954f8ce6b1ed6020790,
+    type: 3}
 --- !u!1001 &7798618823601555349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5749,6 +5752,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 20187674863596436, guid: c125036290ecd2e45bcb69c481e0c10f,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 320635860844462377, guid: c125036290ecd2e45bcb69c481e0c10f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5825,7 +5833,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e71e9af787132840ad0d7cf8efb577e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 6988224981226297599}
+  itemPrefab: {fileID: 1622703959824582832, guid: 7065bf5bf57c16948adc57dca0b5b8e8,
+    type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

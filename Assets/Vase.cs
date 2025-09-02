@@ -5,43 +5,62 @@ public class Vase : MonoBehaviour
     public bool isFilled = false;
     public RitualManager ritualManager;
     public Transform spawnPoint;
-    public GameObject[] possibleObjects;
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (!isFilled && other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("Le joueur est devant le vase.");
+            Debug.Log("[VASE] Le joueur est dans le trigger et a appuyé sur E");
 
-            if (!isFilled && Input.GetKeyDown(KeyCode.E))
+            PlayerInventory inventory = other.GetComponent<PlayerInventory>();
+            if (inventory == null)
             {
-                Debug.Log("Touche E pressée devant le vase.");
+                Debug.LogError("[VASE] Pas de PlayerInventory trouvé sur le joueur !");
+                return;
+            }
 
-                PlayerInventory inventory = other.GetComponent<PlayerInventory>();
-                if (inventory != null && inventory.items.Count > 0)
+            Debug.Log("[VASE] Inventaire actuel contient " + inventory.items.Count + " objets");
+
+            if (inventory.items.Count > 0)
+            {
+                GameObject prefabToPlace = inventory.items[0];
+
+                if (prefabToPlace == null)
                 {
-                    string placedItem = inventory.items[0];
-                    Debug.Log("On essaye de placer: " + placedItem);
+                    Debug.LogError("[VASE] L'objet récupéré de l'inventaire est NULL !");
+                    return;
+                }
 
-                    inventory.RemoveItem(placedItem);
+                Debug.Log("[VASE] Tentative d'instancier : " + prefabToPlace.name);
 
-                    foreach (GameObject objPrefab in possibleObjects)
-                    {
-                        if (objPrefab.name == placedItem)
-                        {
-                            Debug.Log("Objet trouvé dans possibleObjects: " + objPrefab.name);
-                            Instantiate(objPrefab, spawnPoint.position, spawnPoint.rotation, spawnPoint);
-                            break;
-                        }
-                    }
+                // On enlève du sac
+                inventory.RemoveItem(prefabToPlace);
 
-                    isFilled = true;
+                // Sécurité : vérifie encore que le prefab est pas null
+                if (prefabToPlace != null)
+                {
+                    Instantiate(prefabToPlace, spawnPoint.position, spawnPoint.rotation, spawnPoint);
+                    Debug.Log("[VASE] Objet instancié avec succès dans le vase !");
+                }
+                else
+                {
+                    Debug.LogError("[VASE] prefabToPlace est NULL au moment d'Instantiate !");
+                }
+
+                isFilled = true;
+
+                if (ritualManager != null)
+                {
                     ritualManager.CheckRitual();
                 }
                 else
                 {
-                    Debug.Log("Inventaire vide !");
+                    Debug.LogWarning("[VASE] Pas de RitualManager assigné !");
                 }
+            }
+            else
+            {
+                Debug.LogWarning("[VASE] Inventaire vide, aucun objet à placer !");
             }
         }
     }

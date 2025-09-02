@@ -3,25 +3,36 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
-    public List<string> items = new List<string>();
+    public List<GameObject> items = new List<GameObject>();
 
-    public void AddItem(string itemName)
+    public void AddItem(GameObject prefab)
     {
-        items.Add(itemName);
-        Debug.Log("Objet ajouté: " + itemName);
-    }
-
-    public bool HasItem(string itemName)
-    {
-        return items.Contains(itemName);
-    }
-
-    public void RemoveItem(string itemName)
-    {
-        if (items.Contains(itemName))
+        if (prefab == null)
         {
-            items.Remove(itemName);
-            Debug.Log("Objet retiré: " + itemName);
+            Debug.LogError("[INVENTAIRE] Tentative d'ajouter un prefab NULL !");
+            return;
+        }
+
+        items.Add(prefab);
+        Debug.Log("[INVENTAIRE] Objet ajouté: " + prefab.name + " | Total = " + items.Count);
+    }
+
+    public void RemoveItem(GameObject prefab)
+    {
+        if (prefab == null)
+        {
+            Debug.LogError("[INVENTAIRE] Tentative de retirer un prefab NULL !");
+            return;
+        }
+
+        if (items.Contains(prefab))
+        {
+            items.Remove(prefab);
+            Debug.Log("[INVENTAIRE] Objet retiré: " + prefab.name + " | Total = " + items.Count);
+        }
+        else
+        {
+            Debug.LogWarning("[INVENTAIRE] Impossible de retirer " + prefab.name + " car il n'est pas dans l'inventaire !");
         }
     }
 }
