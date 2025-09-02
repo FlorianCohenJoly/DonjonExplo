@@ -14,7 +14,6 @@ public class PlayerInventory : MonoBehaviour
         }
 
         items.Add(prefab);
-        Debug.Log("[INVENTAIRE] Objet ajouté: " + prefab.name + " | Total = " + items.Count);
     }
 
     public void RemoveItem(GameObject prefab)
@@ -28,11 +27,7 @@ public class PlayerInventory : MonoBehaviour
         if (items.Contains(prefab))
         {
             items.Remove(prefab);
-            Debug.Log("[INVENTAIRE] Objet retiré: " + prefab.name + " | Total = " + items.Count);
         }
-        else
-        {
-            Debug.LogWarning("[INVENTAIRE] Impossible de retirer " + prefab.name + " car il n'est pas dans l'inventaire !");
-        }
+
     }
 }

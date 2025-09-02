@@ -31,21 +31,15 @@ public class Vase : MonoBehaviour
                     return;
                 }
 
-                Debug.Log("[VASE] Tentative d'instancier : " + prefabToPlace.name);
-
-                // On enlève du sac
                 inventory.RemoveItem(prefabToPlace);
 
-                // Sécurité : vérifie encore que le prefab est pas null
+
                 if (prefabToPlace != null)
                 {
                     Instantiate(prefabToPlace, spawnPoint.position, spawnPoint.rotation, spawnPoint);
                     Debug.Log("[VASE] Objet instancié avec succès dans le vase !");
                 }
-                else
-                {
-                    Debug.LogError("[VASE] prefabToPlace est NULL au moment d'Instantiate !");
-                }
+
 
                 isFilled = true;
 
@@ -58,10 +52,7 @@ public class Vase : MonoBehaviour
                     Debug.LogWarning("[VASE] Pas de RitualManager assigné !");
                 }
             }
-            else
-            {
-                Debug.LogWarning("[VASE] Inventaire vide, aucun objet à placer !");
-            }
+
         }
     }
 }

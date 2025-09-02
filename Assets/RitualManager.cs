@@ -8,7 +8,7 @@ public class RitualManager : MonoBehaviour
     {
         foreach (Vase vase in vases)
         {
-            if (!vase.isFilled) return; // Un vase est encore vide
+            if (!vase.isFilled) return;
         }
 
         Debug.Log("✨ Rituel complété ! ✨");
@@ -17,6 +17,6 @@ public class RitualManager : MonoBehaviour
 
     void TriggerRitual()
     {
-        // Ici tu choisis ce qui se passe quand les 4 vases sont remplis
+        // todo 
     }
 }
