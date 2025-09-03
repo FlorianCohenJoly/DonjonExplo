@@ -30,4 +30,18 @@ public class PlayerInventory : MonoBehaviour
         }
 
     }
+
+    // fonction qui verifie si l'inventaire contient une keyDoor
+    public void HasKeyDoor()
+    {
+        foreach (GameObject item in items)
+        {
+            if (item.CompareTag("KeyDoor"))
+            {
+                Debug.Log("[INVENTAIRE] Le joueur possède une clé de porte.");
+                return;
+            }
+        }
+        Debug.Log("[INVENTAIRE] Le joueur ne possède pas de clé de porte.");
+    }
 }
