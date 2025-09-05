@@ -4,11 +4,13 @@
 Moi: Whaou quelle téléportation de ouf !
 Moi: Pire qu'une bonne gueule de bois...
 Moi: Le seigneur des enfers sera fier de moi lorsque j'aurais accomplie le rituel de fou malade.
+Moi: Mais cela veut donc dire que je suis en Enfer .. ?
+Moi: C'est un peu la honte ça ...
 [title=INTRO-end]
 
 [title=CRYPT1-start]
 Livre du Savoir: Toi qui vient de spawner de nulle part, sache que tu auras beaucoup d'objets à trouver.
-Livre du Savoir: Trouve la clé de l'entrée de la Cathédrale dans les profondeurs de la Cave.
+Livre du Savoir: Trouve la clé de l'entrée de la Cathédrale des Enfers dans les profondeurs de la Crypt du soldat oublié, Nicolas.
 [title=CRYPT1-end]
 
 
@@ -19,7 +21,7 @@ Mr Porte: Va chercher la clé alors comme te la dis mon amis le bouquin !
 
 [title=DOORopen-start]
 Mr Porte: Ooh tu as trouvés ma clé !
-Mr Porte: Aller passe mais fais attention tu es en Enfer je te rappelles ..
+Mr Porte: Aller passe mais fais attention aux pièges, tu es en Enfer je te rappelles ..
 [title=DOORopen-end]
 
 
