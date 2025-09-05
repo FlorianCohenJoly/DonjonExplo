@@ -16,6 +16,12 @@ public class DoorManager : MonoBehaviour
     private Quaternion rightDoorTargetRotation;
     private Quaternion leftDoorTargetRotation;
 
+    public GameObject rpgTalkWithoutKey;
+
+    public GameObject rpgTalkWithKey;
+
+
+
     void Start()
     {
         // On enregistre les rotations initiales
@@ -60,5 +66,23 @@ public class DoorManager : MonoBehaviour
     public void OpenDoors()
     {
         areDoorsOpen = true;
+    }
+
+    // fonction qui verifie si l'inventaire contient une keyDoor 
+    public bool HasKeyDoor()
+    {
+        foreach (var item in PlayerInventory.Instance.items)
+        {
+            if (item != null && item.CompareTag("KeyDoor"))
+            {
+                rpgTalkWithKey.SetActive(true);
+                rpgTalkWithoutKey.SetActive(false);
+                return true;
+
+            }
+        }
+        rpgTalkWithoutKey.SetActive(true);
+        rpgTalkWithKey.SetActive(false);
+        return false;
     }
 }

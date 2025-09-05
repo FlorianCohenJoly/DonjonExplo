@@ -17,6 +17,11 @@ Mr Porte: Hey, tu veux rentré dans la Cathédrale du tonton ?
 Mr Porte: Va chercher la clé alors comme te la dis mon amis le bouquin ! 
 [title=DOOR-end]
 
+[title=DOORopen-start]
+Mr Porte: Ooh tu as trouvés ma clé !
+Mr Porte: Aller passe mais fais attention tu es en Enfer je te rappelles ..
+[title=DOORopen-end]
+
 
 [title=PERSO-WHISKY-start]
 Léonard Da Whisky: Oh la la, qu'est ce que ca tourne ...

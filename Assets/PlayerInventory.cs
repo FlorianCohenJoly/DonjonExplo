@@ -3,8 +3,21 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
+
+    public static PlayerInventory Instance;
     public List<GameObject> items = new List<GameObject>();
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     public void AddItem(GameObject prefab)
     {
         if (prefab == null)
@@ -31,17 +44,6 @@ public class PlayerInventory : MonoBehaviour
 
     }
 
-    // fonction qui verifie si l'inventaire contient une keyDoor
-    public void HasKeyDoor()
-    {
-        foreach (GameObject item in items)
-        {
-            if (item.CompareTag("KeyDoor"))
-            {
-                Debug.Log("[INVENTAIRE] Le joueur possède une clé de porte.");
-                return;
-            }
-        }
-        Debug.Log("[INVENTAIRE] Le joueur ne possède pas de clé de porte.");
-    }
+
+
 }
