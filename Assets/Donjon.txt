@@ -8,7 +8,7 @@ Moi: Mais cela veut donc dire que je suis en Enfer .. ?
 Moi: C'est un peu la honte ça ...
 Moi: Si je me souviens bien je peux me déplacer avec les touches ZQSD ..
 Moi: Mais aussi courir avec SHIFT et sauter avec la barre d'espace !
-Moi: C'est pas mal tout ça car pour échapper à tous ses malades venue tout droit d'un film de John Carpenter  :/ 
+Moi: C'est pas mal tout ça car pour échapper à tous ses malades venue tout droit d'un film de John Carpenter 
 [title=INTRO-end]
 
 [title=CRYPT1-start]
@@ -34,3 +34,8 @@ Léonard Da Whisky: Maman laisse moi dormir pitié, c'est les vacances et je cro
 Léonard Da Whisky: En plus, c'est bizzare on dirais le début d'une mauvaise blague dehors.
 Léonard Da Whisky: Il faut vraiment que j'arrete le Whisky sérieux ...
 [title=PERSO-WHISKY-end]
+
+[title=CHEST-start]
+Le coffre: hmmm
+Le coffre: hmmmmmmmmmm
+[title=CHEST-end]
