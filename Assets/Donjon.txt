@@ -6,7 +6,7 @@ Moi: Pire qu'une bonne gueule de bois...
 Moi: Le seigneur des enfers sera fier de moi lorsque j'aurais accomplie le <color=red>rituel de fou malade</color>.
 Moi: Mais cela veut donc dire que je suis en Enfer .. ?
 Moi: C'est un peu la honte ça ...
-Moi: Si je me souviens bien je peux me déplacer avec les touches <color=blue>ZQSD</color> ..
+Moi: Si je me souviens bien je peux me déplacer avec les touches <color=yellow>ZQSD</color> ..
 Moi: Mais aussi courir avec <color=yellow>SHIFT</color> et sauter avec la barre d'<color=yellow>ESPACE</color> !
 Moi: C'est pas mal tout ça car pour échapper à tous ses malades venue tout droit d'un film de John Carpenter 
 [title=INTRO-end]
@@ -41,5 +41,11 @@ Le coffre: hmmmmmmmmmm
 [title=CHEST-end]
 
 [title=ELVIS-start]
-Elvis PresLait: Oh Oh Oh, Salut mec
+Elvis PresLait: Oh Oh Oh, Salut mec !
+Elvis PresLait: Tu veux que je te donne un truc super cool ?
+Elvis Preslait: Donne moi <color=green>5$</color> et plus vite que ça
 [title=ELVIS-end]
+
+[title=ELVIS-donne-start]
+Elvis PresLait: Ok, tiens mon grand amuse toi bien !
+[title=ELVIS-donne-end]
