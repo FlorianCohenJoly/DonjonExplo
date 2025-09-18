@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 66f64ebf056995a498f98142d11bd0e0
+  - enabled: 1
     path: Assets/Scenes/Donjon.unity
     guid: 24ec172b56e29d64e9303bc98316b394
   m_configObjects:

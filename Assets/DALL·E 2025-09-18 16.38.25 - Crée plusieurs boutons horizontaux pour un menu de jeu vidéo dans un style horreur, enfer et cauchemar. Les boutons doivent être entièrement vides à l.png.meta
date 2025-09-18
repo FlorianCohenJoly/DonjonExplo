@@ -1,0 +1,978 @@
+fileFormatVersion: 2
+guid: f7d4978ef11dd4d458b006185d476ad5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 825
+        width: 149
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220d1d5c780b6d843b2c68360cc35604
+      internalID: 407698914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_1"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 826
+        width: 166
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b2d46bb04cb3848bb2ff5505c32df4
+      internalID: -451262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_2"
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 826
+        width: 164
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c6ac1ecc803994fb31ed936e445eed
+      internalID: 1130297645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_3"
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 827
+        width: 162
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34cf4a08cd8428418975ed9db09793f
+      internalID: 1097145983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_4"
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 825
+        width: 168
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c3c5710529d4b45ba1e6e7df599750
+      internalID: 1359556717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_5"
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 823
+        width: 157
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c447a14fa4f2e4a8f3ac8458f706e6
+      internalID: -803740094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 643
+        width: 147
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d87ae295947a754797887b444ba156e
+      internalID: 1146311234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_7"
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 643
+        width: 160
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25f98d42a254fc468ca70ad490c9b57
+      internalID: -1877652518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_8"
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 641
+        width: 160
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9402eb6b186c46640b472dad04f1350d
+      internalID: -1850377020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_9"
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 639
+        width: 170
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339dad5f730b1294c80d61856e27e68f
+      internalID: 1661282266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_10"
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 643
+        width: 157
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e79fe2978885847b4983f13e7ecbd2
+      internalID: -875912415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_11"
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 645
+        width: 153
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925d7d83913568a43b6d0334bcf809d9
+      internalID: -411622744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_12"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 459
+        width: 147
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2391367580aff4eb8863701d146da0
+      internalID: -1942838387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_13"
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 459
+        width: 158
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43744ee3768d27f4f86dd4bbbf88451d
+      internalID: -252094925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_14"
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 454
+        width: 162
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e064ae6081b95e947ba868017ccdaf28
+      internalID: 391538090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_15"
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 455
+        width: 166
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4ace5e92197ee41be6ef45a680a0b5
+      internalID: -94704317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_16"
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 459
+        width: 160
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe07cac3fdc9524390b9a6508c92b37
+      internalID: -1070674889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_17"
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 455
+        width: 159
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5ee4e513c5e9d4f9b46c1570789803
+      internalID: -1332153363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_18"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 141
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d518cc31069c7d14ba8d1c3461ff8e81
+      internalID: -1741433664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_19"
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 285
+        width: 146
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000399d2608a06d44897464223cc78b7
+      internalID: -52519568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_20"
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 299
+        width: 502
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5432093b4e3834283fb73e6c94ed72
+      internalID: -1013239019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_21"
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 301
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff56b4cc76ea71c4a817202123b9a488
+      internalID: 1050058500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_22"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 329
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812f55ad66b56ae4aa7de23152c28ac0
+      internalID: -1623454375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_23"
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 155
+        width: 500
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a926b2e9527098749b4ce8e6b132e4a2
+      internalID: 2117591313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_24"
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 163
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628c343d50450ae4598fc2a4d916d889
+      internalID: 1009536047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_25"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 331
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7405b35311b7df64b98476640e43b88b
+      internalID: -805377499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_26"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 66
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38011e723707b3348bc5912077f93815
+      internalID: 351948987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_27"
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 35
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dff2a1ec6be2474fb35bd88414f5be7
+      internalID: 1692763231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_28"
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 43
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c75e69b51082a94fbb1ea6aba41d96d
+      internalID: 1471946309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_29"
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 0
+        width: 192
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adeeb75e2e00a8439ea76e67cc99324
+      internalID: -1344025954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_30"
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 500
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29d0c33d8c8b5841a987369ba862dc4
+      internalID: -153202809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_31"
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0
+        width: 60
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab8de000d37a8044a0f44051a642f08
+      internalID: -48714834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_32"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 33
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdefccd3a86f0f438807d1f94069faa
+      internalID: 1559912419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_33"
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 0
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7100a5f1d17b8a549bb8a50745872326
+      internalID: 1552488975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_34"
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 23
+        width: 116
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b318a171f6161af4886e94eb98eebcc5
+      internalID: 1093343729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux
+        pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les
+        boutons doivent \xEAtre enti\xE8rement vides \xE0 l_35"
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 0
+        width: 99
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235a5ea93bff4b14d8381b3d0884460a
+      internalID: 594980168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_0": 407698914
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_1": -451262
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_10": -875912415
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_11": -411622744
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_12": -1942838387
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_13": -252094925
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_14": 391538090
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_15": -94704317
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_16": -1070674889
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_17": -1332153363
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_18": -1741433664
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_19": -52519568
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_2": 1130297645
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_20": -1013239019
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_21": 1050058500
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_22": -1623454375
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_23": 2117591313
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_24": 1009536047
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_25": -805377499
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_26": 351948987
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_27": 1692763231
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_28": 1471946309
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_29": -1344025954
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_3": 1097145983
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_30": -153202809
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_31": -48714834
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_32": 1559912419
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_33": 1552488975
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_34": 1093343729
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_35": 594980168
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_4": 1359556717
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_5": -803740094
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_6": 1146311234
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_7": -1877652518
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_8": -1850377020
+      "DALL\xB7E 2025-09-18 16.38.25 - Cr\xE9e plusieurs boutons horizontaux pour un menu de jeu vid\xE9o dans un style horreur, enfer et cauchemar. Les boutons doivent \xEAtre enti\xE8rement vides \xE0 l_9": 1661282266
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
